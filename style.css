@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(rgb(0, 249, 236), rgb(71, 150, 229));
+    background: linear-gradient(rgb(143, 71, 133), rgb(233, 143, 230));
   }
   #noButton {
     position: absolute;
@@ -17,7 +17,8 @@ body {
     margin-top: 30px;
   }
   .header_text {
-    font-family: "Nunito";
+    font-family: "Roboto", sans-serif;
+    font-style:italic;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
@@ -26,7 +27,8 @@ body {
     color: #ffffff;
   }
   .text {
-    font-family: "Nunito";
+    font-family: "Roboto", sans-serif;
+    font-style:italic;
     font-size: 25px;
     font-weight: bold;
     color: white;
@@ -43,7 +45,7 @@ body {
     margin-left: 20px;
   }
   .btn {
-    background-color: #017cff;
+    background-color:  #ff0178;
     color: white;
     font-weight: 600;
     padding: 15px 32px;
@@ -59,7 +61,7 @@ body {
   }
   .btn:hover {
     background-color: #ffffff;
-    color: #017cff;
+    color: #ff0178;
   }
   .gif_container {
     display: flex;
